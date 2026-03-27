@@ -1,0 +1,24 @@
+# Python / Flask (legacy — not part of static site)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+flaskapp/
+run.py
+odbc.ini
+odbcinst.ini
+.freetds.conf
+
+# Virtual environments
+venv/
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

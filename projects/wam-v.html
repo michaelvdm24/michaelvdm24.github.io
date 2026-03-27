@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="An assembly of Michael's personal life, interests, and hobbies.">
+    <meta name="author" content="Michael van der Merwe">
+    <link rel="stylesheet" type="text/css" href="../static/css/profile/main.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/profile/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@300">
+    <link rel="shortcut icon" href="../static/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/wam-v/wam-v.css">
+    <title>WAM-V Project Details</title>
+</head>
+
+<body>
+<div class="container mainbody">
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="headline">WAM-V Project Overview</h1>
+            <img src="../static/img/WAM-V.jpg" alt="WAM-V" class="header-image img-fluid">
+            <p>During my tenure at Marine Advanced Robotics, I led the electrical controls design for the WAM-V project, focusing on enhancing its operational capabilities through the integration of advanced technologies. My key contributions included designing a GPS broadcasting system with USB-C power delivery and PoE for improved communication and developing a high-precision winch system for SVP Sonar.</p>
+            <h3>GPS, Radio, and USB-C Incorporated Follow Box</h3>
+            <p>Designed a GPS broadcasting system featuring USB-C power delivery protocols and PoE for enhanced radio communication. Engineered a robust UDP-based protocol to transmit real-time GPS data to user laptops for optimizing navigation solutions.</p>
+            <h3>Sound Velocity Profile Winch and Echosounder</h3>
+            <img src="../static/img/winch_gif.gif" alt="Winch System" class="feature-gif img-fluid">
+            <p>Engineered a high-precision winch system for SVP Sonar, integrating quadrature encoders and brushless DC motor controls. Developed a robust UDP communication protocol between machines, thoroughly tested through a Python-based API and GUI.</p>
+            <h3>Linear Actuator Folding Mechanism for WAM-V 22'</h3>
+            <img src="../static/img/fold_gif.gif" alt="Folding Mechanism" class="feature-gif img-fluid">
+            <p>Designed a PCB that integrates relays, timed control, digital feedback, override switches, and UDP communications to manage the robot's folding and locking mechanisms. This innovation significantly enhanced the functionality and adaptability of the WAM-V's operational modes.</p>
+            <h3>Hemisphere Integration on Raspberry Pi</h3>
+            <p>Optimized System on Chip (SoC) integration to meet critical specifications for power efficiency and enhanced navigation in WAM-V boats. Integrated SoC subsystems to parse NMEA data and distribute GPS information to various microcontrollers via serial communications, improving the accuracy and reliability of navigational systems.</p>
+        </div>
+        <div class="col-md-4">
+            <div class="skills-container">
+                <h2 class="headline2">Skills Used</h2>
+                <ul>
+                    <li>Autodesk Inventor (Component Design)</li>
+                    <li>Solidworks (Component Design)</li>
+                    <li>C (Firmware Design)</li>
+                    <li>C++ (Software Design)</li>
+                    <li>PCB Design Tools (Eagle, LTSpice, KiCad)</li>
+                    <li>Python (Testing and API Development)</li>
+                    <li>PCB Layout and Manufacturing</li>
+                    <li>UDP Communications</li>
+                    <li>System on Chip (SoC) Integration</li>
+                    <li>Serial Communications</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../static/scripts/profile/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="../static/scripts/profile/main.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+{
+    "projects": [
+        {
+            "name": "Controls Theory",
+            "link": "https://figshare.com/articles/online_resource/Linear_Controls_Design_and_Application/19243599?file=34197129",
+            "src": "static/img/controls.gif",
+            "desc": "Continuous and discrete controller design for complex s-plane and z-plane systems <br><i>*Pending journal submission.*</i>",
+            "category": "Personal Projects"
+        },
+        {
+            "name": "WAM-V",
+            "link": "projects/wam-v.html",
+            "src": "static/img/WAM-V_2.jpg",
+            "desc": "An autonomous wave adaptive module vehicle for maritime surveillance and hydrography.",
+            "category": "Electronics"
+        },
+        {
+            "name": "MIDI Audio Synthesizer",
+            "link": "projects/midi.html",
+            "src": "static/img/midi.jpg",
+            "desc": "STM32 design for a MIDI-based audio synthesizer.",
+            "category": "Electronics"
+        },
+        {
+            "name": "Hummingbird Robotics",
+            "link": "projects/hummingbird.html",
+            "src": "static/img/Hummingbird.jpg",
+            "desc": "Dual-motor hummingbird-scale flapping wing robot.",
+            "category": "Electronics"
+        },
+        {
+            "name": "Purdue Solar Racing",
+            "link": "https://purduesolar.org/",
+            "src": "static/img/solar.jpg",
+            "desc": "Purdue's solar-powered racecar renatus for national competition.",
+            "category": "Electronics"
+        },
+        {
+            "name": "FIRST Wreckers Robotics",
+            "link": "projects/wreckers.html",
+            "src": "static/img/wreckers1.jpg",
+            "desc": "High school robotics team for FIRST tech challenge.",
+            "category": "Electronics"
+        },
+        {
+            "name": "Sorting Visualizer",
+            "link": "projects/sorting.html",
+            "src": "static/img/sortingimg.gif",
+            "desc": "Sort algorithm visualizer for Bubble, Selection, Insertion, Quick, Merge, and Heap sorts. <br><i>*This visualization is designed for desktop screen sizes.*</i>",
+            "category": "Personal Projects"
+        }
+    ],
+
+    "experiences": [
+        {
+            "name": "Anduril",
+            "title": "Test Automation Engineer",
+            "dur": "December 2024 – Present",
+            "src": "https://www.anduril.com/",
+            "desc": "<ul><li>Developed hardware-in-the-loop (HIL) test systems for the Fury autonomous aircraft, enabling flight software validation through automated testing of landing gear, hydraulics, and sensor interface electronics.</li><ul></ul><li>Designed four 6-layer test interface PCBAs, a custom high-power test rack, and Python (PyVISA) / LabVIEW software to control instrumentation and inject test conditions for Ghost-X2 UAV electronics, including autonomy carrier board, power delivery board, AC/DC charger, OLEDs, and Electronic Speed Controller.</li></ul>"
+        },
+        {
+            "name": "Tesla",
+            "title": "Senior Systems Validation Engineer",
+            "dur": "March 2024 – December 2024",
+            "src": "https://www.tesla.com/",
+            "desc": "<ul><li>Led Tesla Remote Meter validation, focusing on tests including Modbus communications, power, voltage, current sweeps, and firmware integrity.</li><ul><li>Verified system-level and component integrity of the new Tesla Remote Meter for inclusion in all Tesla residential systems, ensuring robust performance and compliance with IEEE, NEC, and local regulations.</li>"
+        },
+        {
+            "name": "Marine Advanced Robotics",
+            "title": "Electrical Controls Engineer",
+            "dur": "July 2022 – March 2024",
+            "src": "https://wam-v.com/",
+            "desc": "<ul><li>Directed the electrical controls production and design for 8’, 16’, and 22’ WAM-V robots as the sole electrical engineer.</li><ul><li>Saved over $150,000 in manufacturing by leading outsourcing of all PCBA production and shifting to SMD components.</li><li> Administered integration of new sensors, radios, sonars, and additional equipment to broaden the operation capabilities.</ul><li>Designed PCBAs with Eagle, LTSpice, and KiCad, and managed bench validation efforts with automated solutions.</li><ul><li>Motor control board, power board, motherboard, relay board, follow box, and battery isolation designs for enhanced control.</li><li>Developed an automated PCBA testing platform utilizing Python to control oscilloscopes and electronic load sources.</li>"
+        },
+        {
+            "name": "RMF Engineering",
+            "title": "Electrical Design Engineer",
+            "dur": "May 2022 – July 2022",
+            "src": "https://www.rmf.com/",
+            "desc": "<ul><li>Managed critical infrastructure projects that significantly enhanced system reliability and performance across various institutions.</li><ul><li>Led the 80% expansion of Buckley Air Force Base Data Center with a sophisticated UPS and Generator System to ensure uninterrupted power supply.</li><li>Developed a sequence of operations for UMBC's utility, generator, and switchgear to enhance reliability and mitigate failures.</li><li>Verified ladder-logic switchgear operation at Harvard University, ensuring seamless functionality and compliance with safety standards.</li></ul><li>Directed project scopes from development through implementation, focusing on critical power systems and synchronizing multi-disciplinary teams.</li></ul>"
+        },
+        {
+            "name": "Constellation Nuclear Power - Calvert Cliffs",
+            "title": "Electrical Design Engineer",
+            "dur": "July 2020 – July 2022",
+            "src": "https://www.constellationenergy.com/our-company/locations/location-sites/calvert-cliffs.html",
+            "desc": "<ul><li>Developed machine-learning Citrix application for Cable management, design, and testing</li><ul><li>Directed data acqusisiton team by filtering cable criticality analysis by location, equipment attributes, operation, stressors, and priority</li><li> Formulated adverse environment calculations and priority ranking matrix for over 100,000 plant cables</li><li>Saved over $100,000 in maintenance testing, cable management, and environmental qualification costs</li></ul><li>Spearheaded 450HP Salt Water Motor Pump, control, and 5kV Power Supply re-design</li><ul><li>Bolstered safety mechanisms, output efficiency, and testing strategy of vital heat sink Salt Water System</li><li>Scoped and administered work orders for ovation embedded control design with PLC ladder-logic</li></ul><li>Designed over 15 engineering change packages for mechanical and electrical plant systems, equipment, documents, and components</li><ul><li>Prepared extensive temporary and permanent design changes for systems, including control room modifications, and ensure technical issues resolved</li><li>Troubleshoot complex problems, including a digital change to AVR microcontroller on plant trip from Reactor Coolant Pumps</li><li>Control Room HVAC modification for improved response time to gas and smoke signals</li></ul><li>Composed audit responses from internal and external NRC, NOS, INPO and DBAI programs</li><ul><li>Presented Cable Management Program enhancements and gaps</li><li>Utilized OPEX, Corrective Actions, Quality Assurance, and systems data for analyses with plant safety and reliability prioritized</li></ul></ul>"
+        },
+        {
+            "name": "Exelon Nuclear Power - LaSalle",
+            "title": "Electrical Systems Intern",
+            "dur": "May 2019 – August 2019",
+            "src": "https://www.constellationenergy.com/our-company/locations/location-sites/lasalle-county-generating-station.html",
+            "desc": "<ul><li>Scoped and enhanced electrical systems engineering database on critical station safety-related 480V transformers</li><ul><li>Collated specs, preventative maintenance, and work orders on systems utilizing Passport application</li><li>Organized turns ratio, insulation resistance, and Doble power factor testing for over 40 480V transformers onsite</li><li>Classified SBM switch safety mechanisms for 5 Emergency Diesel Generators</li></ul></ul>"
+        },
+        {
+            "name": "Purdue University Engineering",
+            "title": "Undergraduate Teaching Assistant",
+            "dur": "January 2019 – January 2020",
+            "src": "https://catalog.purdue.edu/preview_program.php?catoid=14&poid=18673&_ga=2.243241794.1934433686.1644273500-897784284.1643687959",
+            "desc": "<ul><li>Trained sophomore level electrical engineering laboratory and classroom skills for circuit design</li><ul><li>Educated oscilloscope, function generator, DMM, voltmeter, and ammeter application</li><li>Demonstrated MATLAB SCPI commands and troubleshoot students code for satisfactory performance</li><li>Graded students projects including audio amplifier, AC bridge, and full wave rectifier</li></ul><li>Organized office hours for responding to students questions and concerns</li><li>Supervised lab practical midterm and final exam</li></ul>"
+        }
+    ],
+
+    "photos": [
+        {
+            "name": "Yellowstone mountain",
+            "src": "/static/img/yellowstone.jpeg",
+            "size": "500px",
+            "style": "text-align:left;",
+            "desc": "Photo in Yellowstone, June 2020",
+            "loc": "https://www.google.com/maps/place/Mt+Washburn/@44.7977159,-110.4343675,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipN1hGV70pNI8H4ABUgyhhODY3kxHah2uHuwstjL!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN1hGV70pNI8H4ABUgyhhODY3kxHah2uHuwstjL%3Dw129-h86-k-no!7i5889!8i3926!4m13!1m7!3m6!1s0x534de4596655a1d3:0xd165342f3f8a4eba!2sEagle+Peak!3b1!8m2!3d44.3215978!4d-110.0245946!3m4!1s0x534e3ab18149d37d:0x91335a906a590c6d!8m2!3d44.7977335!4d-110.4343987!5m1!1e4"
+        },
+        {
+            "name": "Tennessee Regatta",
+            "src": "/static/img/Tennessee.jpg",
+            "size": "800px",
+            "style": "text-align:right;",
+            "desc": "Me in an eight with my teammates - we placed 3rd, April 2019",
+            "loc": "http://orra.org/"
+        },
+        {
+            "name": "LaSalle",
+            "src": "/static/img/lasalle_squad.jpeg",
+            "size": "500px",
+            "style": "text-align:left;",
+            "desc": "Photo with the other interns for LaSalle Internship, August 2019",
+            "loc": "https://www.constellationenergy.com/our-company/locations/location-sites/lasalle-county-generating-station.html"
+        },
+        {
+            "name": "Paragliding",
+            "src": "/static/img/paragliding.jpeg",
+            "size": "500px",
+            "style": "text-align:right;",
+            "desc": "Paragliding in South Africa - the homeland, December 2021",
+            "loc": "https://www.google.com/maps/place/Signal+Hill/@-33.9202386,18.3971202,2749m/data=!3m1!1e3!4m13!1m7!3m6!1s0x1dcc67104e7f162f:0xb84d524b129a5252!2sSignal+Hill,+Cape+Town,+8001,+South+Africa!3b1!8m2!3d-33.9194855!4d18.400778!3m4!1s0x1dcc673e599b6ec5:0xcea6892c597d13f4!8m2!3d-33.9172924!4d18.4039101"
+        },
+        {
+            "name": "PPE",
+            "src": "/static/img/PPE.jpeg",
+            "size": "500px",
+            "style": "text-align:left;",
+            "desc": "Wearing PPE at Calvert Cliffs, circa July 2021",
+            "loc": "https://www.constellationenergy.com/our-company/locations/location-sites/calvert-cliffs.html"
+        },
+        {
+            "name": "Covid Graduation",
+            "src": "/static/img/graduation.jpeg",
+            "size": "400px",
+            "style": "text-align:right;",
+            "desc": "My graduation from home during Covid quarantine, May 2021",
+            "loc": "https://www.google.com/maps/place/9+White+Woods+Ln,+Westport,+CT+06880/@41.1462902,-73.3867984,319a,35y,39.41t/data=!3m1!1e3!4m5!3m4!1s0x89e81c8e4d9f8ff1:0x376575684dd5bc27!8m2!3d41.1486991!4d-73.3858128"
+        }
+    ]
+
+}

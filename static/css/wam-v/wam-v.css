@@ -1,0 +1,52 @@
+.container.mainbody {
+    margin-top: 20px;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.row div {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.headline {
+    color: #204056; /* A dark blue that should stand out against the background */
+    font-weight: bold;
+}
+
+.skills-container {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.skills-container li:hover {
+    background-color: #e8f0fe; /* Light blue background on hover */
+    cursor: pointer;
+}
+
+.skills-container h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.skills-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-container li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.skills-container li:last-child {
+    border-bottom: none;
+}

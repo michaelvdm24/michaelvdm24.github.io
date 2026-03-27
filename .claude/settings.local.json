@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find C:UsersMichaelDocumentsGitHubmichaelvdm24.github.io -type f -name .*)",
+      "Bash(xargs grep:*)",
+      "Bash(grep -r \"password\\\\|token\\\\|key\\\\|secret\\\\|api_key\" C:UsersMichaelDocumentsGitHubmichaelvdm24.github.io --include=*.py --include=*.txt --include=*.env)",
+      "Bash(cp -r \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/flaskapp/static/css\" \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/static_css_tmp\")",
+      "Bash(cp -r \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/flaskapp/static/img\" \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/static_img_tmp\")",
+      "Bash(cp -r \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/flaskapp/static/scripts\" \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/static_scripts_tmp\")",
+      "Bash(mkdir -p \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/static\")",
+      "Bash(mkdir -p \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/projects\")",
+      "Bash(mv \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/static_css_tmp\" \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/static/css\")",
+      "Bash(mv \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/static_img_tmp\" \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/static/img\")",
+      "Bash(mv \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/static_scripts_tmp\" \"C:/Users/Michael/Documents/GitHub/michaelvdm24.github.io/static/scripts\")",
+      "Bash(rm -f run.py .freetds.conf odbc.ini odbcinst.ini)",
+      "Bash(rm -rf __pycache__ flaskapp)"
+    ]
+  }
+}

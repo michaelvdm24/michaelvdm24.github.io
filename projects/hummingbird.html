@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="An assembly of Michael's personal life, interests, and hobbies.">
+    <meta name="author" content="Michael van der Merwe">
+    <link rel="stylesheet" type="text/css" href="../static/css/profile/main.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/profile/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@300">
+    <link rel="shortcut icon" href="../static/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/hummingbird/hummingbird.css">
+    <title>Hummingbird Robotics Project Details</title>
+</head>
+
+<body>
+<div class="container mainbody">
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="headline">Hummingbird Robotics Project Overview</h1>
+            <img src="../static/img/hummingbird2.jpg" alt="Hummingbird Robotics" class="header-image img-fluid">
+            <p>For my senior design project, I worked on Purdue's prestigious Hummingbird Robot. I focused on optimizing BLDC motor control through an advanced H-bridge design utilizing hall sensors for position feedback and a PID controller to manage the motor's back and forth motion with a 10:1 gear ratio. As the oldest in my group, I led the design, prototyping, and optimization.</p>
+            <h3>Signal Pathway and Motor Control</h3>
+            <p>The core of the project revolves around creating an efficient signal pathway, using speed as the input and generating a 50kHz PWM output that mimics an ideal square wave, essential for precise motor operation.</p>
+            <h3>Design Challenges and Electronic Schematic</h3>
+            <p>The design challenges include handling the complex dynamics of switching frequencies and motor stopping, which can jeopardize the H-bridge due to inductive load currents. A comprehensive electronic schematic incorporates MOSFETs and BJTs to manage these issues by ensuring fast switching speeds, robust voltage handling, and minimal power loss through thermal management.</p>
+            <h3>Command, Control, and Microcontroller Implementation</h3>
+            <p>For command and control, the project utilizes an STM32 microcontroller to orchestrate the PWM signals across the H-bridge. The intricate setup includes two timers for the PWM and hall sensor signals, with a dedicated TIM1 for BLDC bridge FETs and TIM4 for hall sensor signals, ensuring precise motor commutation.</p>
+            <h3>PID Controller and Performance Optimization</h3>
+            <p>The system's PID controller, tuned in MATLAB, dynamically adjusts the PWM duty cycle based on real-time speed discrepancies to achieve desired motion profiles smoothly and efficiently.</p>
+            <img src="../static/img/hummingbirdposter.jpg" alt="Hummingbird Project Poster" class="img-fluid">
+            <a href="https://youtu.be/GCEbEL_EmyQ?si=bXYXMF0GbUpFzvmZ" class="more-info" target="_blank">More Information</a>
+        </div>
+        <div class="col-md-4">
+            <div class="skills-container">
+                <h2 class="headline2">Skills Used</h2>
+                <ul>
+                    <li>BLDC Motor Control</li>
+                    <li>H-bridge Circuit Design</li>
+                    <li>Hall Sensor Implementation</li>
+                    <li>PID Controller Tuning</li>
+                    <li>STM32 Microcontroller Programming</li>
+                    <li>PWM Signal Management</li>
+                    <li>Electronic Circuit Schematic Design</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../static/scripts/profile/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="../static/scripts/profile/main.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="An assembly of Michael's personal life, interests, and hobbies.">
+    <meta name="author" content="Michael van der Merwe">
+    <link rel="stylesheet" type="text/css" href="../static/css/profile/main.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/profile/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@300">
+    <link rel="shortcut icon" href="../static/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/midi/midi.css">
+    <title>MIDI Audio Synthesizer Project Details</title>
+</head>
+
+<body>
+<div class="container mainbody">
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="headline">MIDI Audio Synthesizer Project Overview</h1>
+            <img src="../static/img/midi2.jpg" alt="MIDI Synthesizer" class="header-image img-fluid">
+            <p>During my tenure at the MIDI project, I spearheaded the development of an advanced audio synthesizer, designed to optimize music production through innovative technological integration. Here's a detailed breakdown of the project components:</p>
+
+            <h3>Signal Pathway and MIDI Interface</h3>
+            <p>A MIDI signal is generated when one of the synthesizer's 76 polyphonic keys is pressed. This signal passes through ports 4 and 5, utilizing a light-on phototransistor to ensure accurate signal reception and processing. This setup enhances the robustness and reliability of the synthesizer, preventing signal degradation and ensuring high fidelity in music production.</p>
+
+            <h3>Electronic Schematic and Signal Protection</h3>
+            <p>The electronic schematic incorporates an opto-isolator to transfer the MIDI signal to a UART's isolated circuit effectively. This feature is critical for protecting the microcontroller from potential damage due to voltage irregularities, ensuring long-term reliability and system integrity. A diode serves as a first quad chopper, which, combined with a sophisticated pull-up resistor mechanism, effectively manages the signal transmission and protects the circuit.</p>
+
+            <h3>Data Handling and Microcontroller Configuration</h3>
+            <p>The MIDI data received is meticulously processed by an STM32 microcontroller, which operates at 31250 bits per second. This rapid processing capability allows for the precise execution of commands and channel information, which is crucial for real-time performance scenarios.</p>
+
+            <h3>Sound Generation and Output</h3>
+            <p>The system's DAC converts digital signals into precise sine waveforms for each note played, which are then amplified for output. This process is critical for achieving the desired sound quality and can be fine-tuned to suit various musical styles and preferences.</p>
+
+            <h3>Project Improvements and Future Enhancements</h3>
+            <p>Future enhancements aim to improve output speed to address audio delays, enhance synthesizer functionalities such as pitch bending, and transition from UART to more advanced communication protocols like SPI/I2C. These improvements will allow for more complex sound manipulations and a richer audio experience.</p>
+        </div>
+        <div class="col-md-4">
+            <div class="skills-container">
+                <h2 class="headline2">Skills Used</h2>
+                <ul>
+                    <li>STM32 Microcontroller</li>
+                    <li>Digital-to-Analog Converter (DAC)</li>
+                    <li>UART, SPI/I2C Communication Protocols</li>
+                    <li>Opto-isolators and Diode Technology</li>
+                    <li>Software Development in C and C++</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../static/scripts/profile/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="../static/scripts/profile/main.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+
+</html>
